@@ -23,8 +23,8 @@ By the end of this project you will be able to...
 <a href="https://www.loom.com/share/caf517a965f04f23a18bf49e31aed7b7">
     <p>LifeTracker - 7 July 2023 - Watch Video</p>
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/caf517a965f04f23a18bf49e31aed7b7-with-play.gif">
-  </a>
-  *please ignore exercise component
+</a>(please ignore exercise component)
+
 ### Core Features
 
 - [X] **The Landing Page:** Display a large hero image and a brief blurb on what this application is about. *Note:* This is the only page that unauthenticated users should be able to view.
