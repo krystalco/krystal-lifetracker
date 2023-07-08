@@ -1,7 +1,6 @@
 # Project #3: LifeTracker Application
 
-## Overview
-Hello I can update stuff in the Github!
+## Overview 
 
 > Data is the new oil - Clive Humbly
 
