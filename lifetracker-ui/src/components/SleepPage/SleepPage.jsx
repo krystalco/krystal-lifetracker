@@ -3,7 +3,7 @@ import axios from 'axios'
 import './SleepPage.css'
 import SleepCard from '../SleepCard/SleepCard'
 
-export default function SleepPage() {
+export default function SleepPage({ loggedIn }) {
 
    const [sleepData, setSleepData] = useState([]);
 
@@ -14,6 +14,11 @@ export default function SleepPage() {
    }, []);
    console.log(sleepData)
     return (
+   !loggedIn? (
+      <div className="SleepPage css-1bpnzr3">
+         <h3 className='login'>Log in to see your data.</h3>
+      </div>
+   ) : (
 <div className="SleepPage css-1bpnzr3">
    <div className="css-k2eq80">
       <div className="chakra-stack css-1cgbrw5">
@@ -65,5 +70,6 @@ export default function SleepPage() {
       </div>
    </div>
 </div>
+    )
     )
 }   

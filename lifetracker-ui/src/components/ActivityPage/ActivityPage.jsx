@@ -3,8 +3,6 @@ import './ActivityPage.css'
 import React from "react"
 import {useState, useEffect} from 'react'
 import axios from 'axios'
-import axios from 'axios'
-import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 
 export default function ActivityPage({ loggedIn }) {
@@ -46,10 +44,6 @@ export default function ActivityPage({ loggedIn }) {
       <div className="chakra-stack css-12mzq72">
          <h2 className="chakra-heading css-1jb3vzl">Activity Feed</h2>
          <div className="chakra-stack css-1qwhsm9">
-
-            <button type="button" className="chakra-button css-moltat">Add Exercise</button>
-         <button type="button" className="chakra-button css-l6faz9">Log Sleep</button>
-         <a href="/nutrition/create"><button type="button" className="chakra-button css-n3canj" onClick={()=>console.log("click")}>Record Nutrition</button></a>
 
          <Link to = "/exercise/create">
          <button type="button" className="chakra-button css-moltat">Add Exercise</button>

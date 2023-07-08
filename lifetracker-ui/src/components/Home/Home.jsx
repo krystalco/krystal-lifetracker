@@ -8,7 +8,8 @@ export default function Home ({ loggedIn, firstName }) {
       <div className="chakra-stack css-18rb735">
          <h1 className="chakra-heading css-bgad6s">LifeTracker</h1>
          <h2 className="chakra-heading css-1la3ewl">
-            {loggedIn ? `Hi, ${firstName}! Welcome to LifeTracker` : "Helping you take back control of your world."}
+         {loggedIn ? `"By counting the things that count – and pushing yourself to find a way to count the things that seem as if they can’t be counted – you make sure they’re part of your life.”
+          – Gretchen Rubin` : "Helping you take back control of your world."}
           </h2>
           {!loggedIn && <a href="/register"><button type="button" className="chakra-button css-uybm84">Create your account now</button></a>}
         </div>
@@ -16,7 +17,7 @@ export default function Home ({ loggedIn, firstName }) {
       </div>
       <div className="tiles css-gg4vpm">
       <div spacing="10px" className="css-dvxtzn">
-         <div className="css-70qvj9">
+         <div className="css-70qvj99">
             <p className="chakra-text css-1jijfcn">Fitness</p>
             <div className="css-17xejub"></div>
             &nbsp;
@@ -30,7 +31,7 @@ export default function Home ({ loggedIn, firstName }) {
          <div className="css-17xejub"></div>
       </div>
       <div spacing="10px" className="css-dvxtzn">
-         <div className="css-70qvj9">
+         <div className="css-70qvj99">
             <p className="chakra-text css-1jijfcn">Food</p>
             <div className="css-17xejub"></div>
             &nbsp;
@@ -46,7 +47,7 @@ export default function Home ({ loggedIn, firstName }) {
          <div className="css-17xejub"></div>
       </div>
       <div spacing="10px" className="css-dvxtzn">
-         <div className="css-70qvj9">
+         <div className="css-70qvj99">
             <p className="chakra-text css-1jijfcn">Rest</p>
             <div className="css-17xejub"></div>
             &nbsp;
@@ -58,7 +59,7 @@ export default function Home ({ loggedIn, firstName }) {
          <div className="css-17xejub"></div>
       </div>
       <div spacing="10px" className="css-dvxtzn">
-         <div className="css-70qvj9">
+         <div className="css-70qvj99">
             <p className="chakra-text css-1jijfcn">Planner</p>
             <div className="css-17xejub"></div>
             &nbsp;
