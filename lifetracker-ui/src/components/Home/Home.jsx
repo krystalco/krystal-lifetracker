@@ -8,8 +8,7 @@ export default function Home ({ loggedIn, firstName }) {
       <div className="chakra-stack css-18rb735">
          <h1 className="chakra-heading css-bgad6s">LifeTracker</h1>
          <h2 className="chakra-heading css-1la3ewl">
-         {loggedIn ? `"By counting the things that count – and pushing yourself to find a way to count the things that seem as if they can’t be counted – you make sure they’re part of your life.”
-          – Gretchen Rubin` : "Helping you take back control of your world."}
+         {loggedIn ? "Welcome to LifeTracker! Track your sleep, nutrition, and health with this application." : "Take back control of your world now."}
           </h2>
           {!loggedIn && <a href="/register"><button type="button" className="chakra-button css-uybm84">Create your account now</button></a>}
         </div>

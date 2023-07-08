@@ -1,6 +1,6 @@
 import './ExercisePage.css'
 
-export default function ExercisePage(loggedIn) {
+export default function ExercisePage({loggedIn}) {
     return (
         !loggedIn? (
         <div className="ExercisePage css-ra15rn">
