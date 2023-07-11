@@ -20,10 +20,11 @@ By the end of this project you will be able to...
 - [ ] Store user-authenticated JWT tokens in the browser's local storage for persisted authentication
 
 ## Application Features
-<a href="https://www.loom.com/share/caf517a965f04f23a18bf49e31aed7b7">
-    <p>LifeTracker - 7 July 2023 - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/caf517a965f04f23a18bf49e31aed7b7-with-play.gif">
-</a>(please ignore exercise component)
+<a href="https://www.loom.com/share/a152a629924e43d9bc1df01e99c3f984">
+    <p>LifeTracker - 11 July 2023 - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/a152a629924e43d9bc1df01e99c3f984-with-play.gif">
+  </a>
+Render link: https://krystal-lifetracker.onrender.com
 
 ### Core Features
 
